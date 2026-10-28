@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+_envs/
+.buildvenv/
+*.egg-info/
+.pytest_cache/
+# Build kit outputs
+build/dist/
+build/work/
+build/installers/
+build/logs/
+build/kit.zip
+dist/
+*.exe
+*.msi
+*.log
+*.spec.bak
+# Old local snapshots / diagnostics
+**/backup-v*/
+.backups/
+.archive/
+.logs/
+**/ssl-report-*.txt
+# Secrets: tokens, credentials, local config
+.env*
+*token*.json
+*token*.txt
+*credential*
+*secret*
+config.local.*
+settings.local.*
+*.pfx
+*.p12
+*.pem
+*.key
+# Node / IDE / OS
+node_modules/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
